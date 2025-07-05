@@ -5,9 +5,9 @@
 ```
 ai-chat-assistant/
 ├── assets/
-│   ├── bot_avatar.png          # 机器人头像 (64x64px)
-│   └── user_avatar.png         # 用户头像 (64x64px)
-├── app.py                      # 主程序文件
+│   ├── bot_avatar.png          # 机器人头像
+│   └── user_avatar.png         # 用户头像
+├── web_ui.py                   # 主程序文件
 ├── requirements.txt            # 依赖包列表
 ├── README.md                   # 项目说明
 ├── config.py                   # 配置文件
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ### 3. 运行程序
 ```bash
-python app.py
+python web_ui.py
 ```
 
 ### 4. 访问界面
